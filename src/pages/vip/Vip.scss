@@ -1,0 +1,18 @@
+.hy-vip {
+  height: 100%;
+}
+.hy-card {
+  margin: 10px 10px 10px 90px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 8px;
+}
+.hy-video-card {
+}
+.hy-line-card {
+  :global {
+    .ant-select {
+      width: 50%;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.hy-layout {
+  background: center no-repeat url("./assets/imgs/gbl2.jpg") !important;
+  min-height: 100vh !important;
+  :global {
+    .ant-layout {
+      background: transparent;
+    }
+    .ant-layout-sider {
+      position: fixed;
+      height: 100%;
+      z-index: 1;
+    }
+    .ant-layout-header {
+      padding-left: 200px;
+      display: flex;
+    }
+  }
+}
+.hy-layout-content {
+  min-height: 1000px;
+}
+.hy-logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}

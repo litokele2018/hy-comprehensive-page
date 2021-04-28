@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import "./index.scss";
+
 
 const Home: React.FC = () => {
-  return <div>1</div>;
+  
+  return <div>home</div>;
 };
 
 export default Home;

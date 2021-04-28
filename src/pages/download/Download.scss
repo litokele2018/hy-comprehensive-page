@@ -1,0 +1,45 @@
+.hy-card {
+  margin: 10px 10px 10px 90px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 5px 8px;
+}
+.hy-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  :global {
+    .ant-card {
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .ant-card-actions {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+.hy-img-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.hy-download-btn {
+  display: flex;
+  justify-content: center;
+}
+.hy-progress {
+  :global {
+    .ant-progress-outer {
+      padding-right: 50px!important;
+    }
+    .ant-progress-text {
+      margin-left: -2px;
+    }
+  }
+}
